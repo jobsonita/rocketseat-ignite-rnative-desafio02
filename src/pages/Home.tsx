@@ -36,6 +36,18 @@ export function Home() {
     );
   }
 
+  function handleEditTask(id: number, newTitle: string) {
+    setTasks((prevTasks) =>
+      prevTasks.map((task) => {
+        if (task.id == id) {
+          return { ...task, title: newTitle };
+        } else {
+          return task;
+        }
+      })
+    );
+  }
+
   function handleRemoveTask(id: number) {
     Alert.alert(
       "Remover item",
@@ -67,6 +79,7 @@ export function Home() {
       <TasksList
         tasks={tasks}
         toggleTaskDone={handleToggleTaskDone}
+        editTask={handleEditTask}
         removeTask={handleRemoveTask}
       />
     </View>

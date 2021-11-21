@@ -10,7 +10,7 @@ export function TodoInput({ addTask }: TodoInputProps) {
   const [task, setTask] = useState("");
 
   function handleAddNewTask() {
-    if (task !== "") {
+    if (task.trim().length > 0) {
       addTask(task);
       setTask("");
     }

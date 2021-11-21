@@ -8,12 +8,11 @@
 # :rocket::seat: Ignite Course - React Native Track - Challenge 02 :iphone:
 
 A simple app to store Tasks that can be marked as done.  
-This version ignores the tests and adds some funcionalities (edit a task and alert before deletion).
-Developed through TDD using [Rocketseat's template](https://github.com/rocketseat-education/ignite-template-react-native-todos) as a base.
+This version ignores the tests and adds some extra functionalities (edit a task and alert before deletion).
 
 ## :hammer: Status
 
-> :construction: Finished :wrench:
+> :white_check_mark: Finished :lock:
 
 ## :bookmark: Content Table
 <!--ts-->
@@ -26,12 +25,11 @@ Developed through TDD using [Rocketseat's template](https://github.com/rocketsea
 ## :newspaper: App Interface
 ### :iphone: Planned Design
 
-<p align="center"><video alt="Planned design provided by Rocketseat" src="https://i.imgur.com/uEne5Vg.mp4" width="250px" controls autoplay/></p>
+<p align="center"><a href="https://i.imgur.com/uEne5Vg.mp4">Planned design provided by Rocketseat</a></p>
 
 ### :tada: Final Result
 
-:construction:
-<!--<p align="center"><img alt="Final design for the app" title="Final design for the app" src="https://i.imgur.com/16eFNRH.png" width="250px"/></p>-->
+<p align="center"><img alt="Final design for the app" title="Final design for the app" src="https://i.imgur.com/QM525MJ.png" width="250px" /></p>
 
 ## :books: Technologies
 
